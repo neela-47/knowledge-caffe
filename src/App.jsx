@@ -15,11 +15,17 @@ function App() {
   console.log(bookmarks)
   }
 
-  const handleReadingTime = time =>{
+  const handleReadingTime = (id, time )=>{
     console.log('readed');
     const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime)
+
+    const remainingBookMark = bookmarks.filter(bookmark => bookmark.id !== id)
+  console.log('booked');
+  setBookMarks(remainingBookMark)
   }
+
+  
 
   return (
     <>
