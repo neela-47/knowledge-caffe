@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co.com/tcjN73f/blog1.jpg",
+        "title": "Understanding the Basics of JavaScript",
+        "author_img": "https://i.ibb.co.com/xSHQH2y/author1.jpg",
+        "author": "Jane Doe",
+        "posted_date": "2024-10-10",
+        "reading_time": 5,
+        "hashtags": ["JavaScript", "Programming", "Web Development"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co.com/PD3yXrp/blog2.jpg",
+        "title": "A Beginner’s Guide to Python",
+        "author_img": "https://i.ibb.co.com/YbXZNGv/author2.jpg",
+        "author": "John Smith",
+        "posted_date": "2024-09-25",
+        "reading_time": 7,
+        "hashtags": ["Python", "Coding", "Tutorial"]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co.com/1G4NSDj/blog3.jpg",
+        "title": "Mastering CSS Flexbox and Grid",
+        "author_img": "https://i.ibb.co.com/Km7h0wC/author3.jpg",
+        "author": "Alice Brown",
+        "posted_date": "2024-08-20",
+        "reading_time": 10,
+        "hashtags": ["CSS", "Web Design", "Frontend"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co.com/64BcCgk/blog4.jpg",
+        "title": "The Power of React in Modern Web Development",
+        "author_img": "https://i.ibb.co.com/g4xGwkB/author4.jpg",
+        "author": "Michael Lee",
+        "posted_date": "2024-07-30",
+        "reading_time": 8,
+        "hashtags": ["React", "JavaScript", "Frontend"]
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co.com/cYPT93m/blog5.jpg",
+        "title": "Exploring Machine Learning with Python",
+        "author_img": "https://i.ibb.co.com/K9XXQV2/author5.jpg",
+        "author": "Emily White",
+        "posted_date": "2024-06-15",
+        "reading_time": 12,
+        "hashtags": ["Machine Learning", "Python", "AI"]
+    }
+]
