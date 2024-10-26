@@ -6,7 +6,8 @@ import Bookmarks from './components/Bookmarks'
 import { useState } from 'react'
 
 function App() {
-  const [bookmarks, setBookMarks] = useState()
+  const [bookmarks, setBookMarks] = useState([])
+  const [readingTime, setReadingTime] = useState(0)
 
   const handleBookMark = blog =>{
   const newBookMarks = [...bookmarks, blog];
@@ -14,13 +15,20 @@ function App() {
   console.log(bookmarks)
   }
 
+  const handleReadingTime = time =>{
+    console.log('readed');
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime)
+  }
+
   return (
     <>
      <Header></Header>
 
      <main className='flex gap-5 max-w-7xl mx-auto '>
-      <Blogs handleBookMark={handleBookMark}></Blogs>
-      <Bookmarks bookmarks={bookmarks}></Bookmarks>
+      <Blogs handleBookMark={handleBookMark} handleReadingTime={handleReadingTime}>
+     </Blogs>
+      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
      </main>
       
     </>
